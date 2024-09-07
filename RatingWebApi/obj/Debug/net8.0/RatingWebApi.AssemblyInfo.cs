@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RatingWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e3a828fc9819ecc33f38947fb83cf70ae494909")]
 [assembly: System.Reflection.AssemblyProductAttribute("RatingWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RatingWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1T6Cfvy5ZJI=",
+  "dgSpecHash": "Esped4AXAGo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Likitha.P\\Downloads\\vscodeApp\\Book_Barn_Rating\\Rating.Domain\\Rating.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Domain\\Rating.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Likitha.P\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Likitha.P\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

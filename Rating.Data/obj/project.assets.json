@@ -4132,11 +4132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Likitha.P\\Downloads\\vscodeApp\\Book_Barn_Rating\\Rating.Data\\Rating.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\Rating.Data.csproj",
       "projectName": "Rating.Data",
-      "projectPath": "C:\\Users\\Likitha.P\\Downloads\\vscodeApp\\Book_Barn_Rating\\Rating.Data\\Rating.Data.csproj",
+      "projectPath": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\Rating.Data.csproj",
       "packagesPath": "C:\\Users\\Likitha.P\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Likitha.P\\Downloads\\vscodeApp\\Book_Barn_Rating\\Rating.Data\\obj\\",
+      "outputPath": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Likitha.P\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4154,8 +4154,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Likitha.P\\Downloads\\vscodeApp\\Book_Barn_Rating\\Rating.Domain\\Rating.Domain.csproj": {
-              "projectPath": "C:\\Users\\Likitha.P\\Downloads\\vscodeApp\\Book_Barn_Rating\\Rating.Domain\\Rating.Domain.csproj"
+            "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Domain\\Rating.Domain.csproj": {
+              "projectPath": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Domain\\Rating.Domain.csproj"
             }
           }
         }
