@@ -115,5 +115,54 @@ namespace Rating.WebApi.Controllers
                 await _averageRatingRepository.UpdateAverageRatingAsync(bookId, avgRating, totalReviews);
             }
         }
+
+        // GET: api/reviews/user/{userId}/book/{bookId} - Get review by userId and bookId
+        [HttpGet("user/{userId}/book/{bookId}")]
+        public async Task<IActionResult> GetReviewByUserAndBook(int userId, int bookId)
+        {
+            var review = await _reviewRepository.GetReviewByUserAndBookIdAsync(userId, bookId);
+
+            if (review == null)
+                return NotFound("No review found for this user and book.");
+
+            return Ok(review);
+        }
+
+        // PUT: api/reviews/user/{userId}/book/{bookId} - Edit a review by userId and bookId
+        [HttpPut("user/{userId}/book/{bookId}")]
+        public async Task<IActionResult> EditReviewByUserAndBook(int userId, int bookId, [FromBody] Reviews updatedReview)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var review = await _reviewRepository.GetReviewByUserAndBookIdAsync(userId, bookId);
+            if (review == null)
+                return NotFound("Review not found for this user and book.");
+
+            // Update review details
+            review.Review = updatedReview.Review;
+            review.Rating = updatedReview.Rating;
+
+            await _reviewRepository.UpdateReviewAsync(review);
+            await UpdateAverageRating(bookId); // Update average rating after editing a review
+
+            return Ok("Review updated successfully.");
+        }
+
+        // DELETE: api/reviews/user/{userId}/book/{bookId} - Delete a review by userId and bookId
+        [HttpDelete("user/{userId}/book/{bookId}")]
+        public async Task<IActionResult> DeleteReviewByUserAndBook(int userId, int bookId)
+        {
+            var review = await _reviewRepository.GetReviewByUserAndBookIdAsync(userId, bookId);
+            if (review == null)
+                return NotFound("Review not found for this user and book.");
+
+            await _reviewRepository.DeleteReviewAsync(review);
+            await UpdateAverageRating(bookId); // Update average rating after deleting a review
+
+            return Ok("Review deleted successfully.");
+        }
+
+
     }
 }

@@ -73,5 +73,11 @@ namespace Rating.Infrastructure.Repositories
             return await _context.AverageRating
                 .FirstOrDefaultAsync(a => a.BookId == bookId);
         }
+
+        public async Task<Reviews> GetReviewByUserAndBookIdAsync(int userId, int bookId)
+        {
+            return await _context.Reviews
+                .FirstOrDefaultAsync(r => r.UserId == userId && r.BookId == bookId);
+        }
     }
 }

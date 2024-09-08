@@ -6,6 +6,7 @@ namespace Rating.Domain.Repositories
 {
     public interface IReviewRepository
     {
+        Task<Reviews> GetReviewByUserAndBookIdAsync(int userId, int bookId);//a
         Task AddReviewAsync(Reviews review);
         Task<IEnumerable<Reviews>> GetReviewsByBookIdAsync(int bookId);
         Task<Reviews> GetReviewByIdAsync(int reviewId);//a

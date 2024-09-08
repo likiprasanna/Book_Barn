@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E0C9B0E-BBDB-4B7D-A9E9-46B055C435B8}|Rating.Data\\Rating.Data.csproj|c:\\users\\likitha.p\\onedrive - consilio\\desktop\\repository\\book_barn_rating\\rating.data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0C9B0E-BBDB-4B7D-A9E9-46B055C435B8}|Rating.Data\\Rating.Data.csproj|solutionrelative:rating.data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E0C9B0E-BBDB-4B7D-A9E9-46B055C435B8}|Rating.Data\\Rating.Data.csproj|c:\\users\\likitha.p\\onedrive - consilio\\desktop\\repository\\book_barn_rating\\rating.data\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0C9B0E-BBDB-4B7D-A9E9-46B055C435B8}|Rating.Data\\Rating.Data.csproj|solutionrelative:rating.data\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27053DA9-B703-4043-B54A-7340ACA4DFBF}|Rating.Domain\\Rating.Domain.csproj|c:\\users\\likitha.p\\onedrive - consilio\\desktop\\repository\\book_barn_rating\\rating.domain\\repository\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27053DA9-B703-4043-B54A-7340ACA4DFBF}|Rating.Domain\\Rating.Domain.csproj|solutionrelative:rating.domain\\repository\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1D52BDC-4068-4D46-BF2B-C64B709E7155}|RatingWebApi\\RatingWebApi.csproj|c:\\users\\likitha.p\\onedrive - consilio\\desktop\\repository\\book_barn_rating\\ratingwebapi\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1D52BDC-4068-4D46-BF2B-C64B709E7155}|RatingWebApi\\RatingWebApi.csproj|solutionrelative:ratingwebapi\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0C9B0E-BBDB-4B7D-A9E9-46B055C435B8}|Rating.Data\\Rating.Data.csproj|c:\\users\\likitha.p\\onedrive - consilio\\desktop\\repository\\book_barn_rating\\rating.data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0C9B0E-BBDB-4B7D-A9E9-46B055C435B8}|Rating.Data\\Rating.Data.csproj|solutionrelative:rating.data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0C9B0E-BBDB-4B7D-A9E9-46B055C435B8}|Rating.Data\\Rating.Data.csproj|c:\\users\\likitha.p\\onedrive - consilio\\desktop\\repository\\book_barn_rating\\rating.data\\ratingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D1D52BDC-4068-4D46-BF2B-C64B709E7155}|RatingWebApi\\RatingWebApi.csproj|c:\\users\\likitha.p\\onedrive - consilio\\desktop\\repository\\book_barn_rating\\ratingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1D52BDC-4068-4D46-BF2B-C64B709E7155}|RatingWebApi\\RatingWebApi.csproj|solutionrelative:ratingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1D52BDC-4068-4D46-BF2B-C64B709E7155}|RatingWebApi\\RatingWebApi.csproj|c:\\users\\likitha.p\\onedrive - consilio\\desktop\\repository\\book_barn_rating\\ratingwebapi\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1D52BDC-4068-4D46-BF2B-C64B709E7155}|RatingWebApi\\RatingWebApi.csproj|solutionrelative:ratingwebapi\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1D52BDC-4068-4D46-BF2B-C64B709E7155}|RatingWebApi\\RatingWebApi.csproj|c:\\users\\likitha.p\\onedrive - consilio\\desktop\\repository\\book_barn_rating\\ratingwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 304,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +82,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Domain\\Repository\\IReviewRepository.cs",
+              "RelativeDocumentMoniker": "Rating.Domain\\Repository\\IReviewRepository.cs",
+              "ToolTip": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Domain\\Repository\\IReviewRepository.cs",
+              "RelativeToolTip": "Rating.Domain\\Repository\\IReviewRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T12:42:05.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "Rating.Data\\ReviewRepository.cs",
+              "ToolTip": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\ReviewRepository.cs",
+              "RelativeToolTip": "Rating.Data\\ReviewRepository.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowEMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T17:33:52.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "RatingWebApi\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "RatingWebApi\\Controllers\\ReviewController.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAADwv5AAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T15:43:59.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "RatingWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\Program.cs",
+              "RelativeToolTip": "RatingWebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T17:35:45.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\Program.cs",
               "RelativeDocumentMoniker": "Rating.Data\\Program.cs",
@@ -91,43 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\Program.cs",
-              "RelativeDocumentMoniker": "RatingWebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\Program.cs",
-              "RelativeToolTip": "RatingWebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T17:35:45.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReviewRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\ReviewRepository.cs",
-              "RelativeDocumentMoniker": "Rating.Data\\ReviewRepository.cs",
-              "ToolTip": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\ReviewRepository.cs",
-              "RelativeToolTip": "Rating.Data\\ReviewRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwBwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T17:33:52.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "RatingWebApi\\Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "RatingWebApi\\Controllers\\ReviewController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAvwBcAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T15:43:59.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Domain\\Entties\\Review.cs",
               "RelativeDocumentMoniker": "Rating.Domain\\Entties\\Review.cs",
@@ -139,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AverageRating.cs",
               "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Domain\\Entties\\AverageRating.cs",
               "RelativeDocumentMoniker": "Rating.Domain\\Entties\\AverageRating.cs",
@@ -151,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RatingDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\RatingDbContext.cs",
               "RelativeDocumentMoniker": "Rating.Data\\RatingDbContext.cs",
@@ -163,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Rating.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Domain\\Rating.Domain.csproj",
               "RelativeDocumentMoniker": "Rating.Domain\\Rating.Domain.csproj",
@@ -175,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Rating.Data.csproj",
               "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\Rating.Data\\Rating.Data.csproj",
               "RelativeDocumentMoniker": "Rating.Data\\Rating.Data.csproj",
@@ -187,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\appsettings.json",
               "RelativeDocumentMoniker": "RatingWebApi\\appsettings.json",
@@ -199,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RatingWebApi.csproj",
               "DocumentMoniker": "C:\\Users\\Likitha.P\\OneDrive - Consilio\\Desktop\\repository\\Book_Barn_Rating\\RatingWebApi\\RatingWebApi.csproj",
               "RelativeDocumentMoniker": "RatingWebApi\\RatingWebApi.csproj",
