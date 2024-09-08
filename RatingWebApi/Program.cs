@@ -11,6 +11,7 @@ builder.Services.AddDbContext<RatingDbContext>(options =>
 
 // Register your repository
 builder.Services.AddScoped<IReviewRepository, ReviewRepository>();
+builder.Services.AddScoped<IAverageRatingRepository, AverageRatingRepository>();
 
 // Add services to the container.
 builder.Services.AddControllers();

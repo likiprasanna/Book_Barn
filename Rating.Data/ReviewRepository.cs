@@ -49,6 +49,25 @@ namespace Rating.Infrastructure.Repositories
                 .ToListAsync();
         }
 
+        //from here it is added 
+        public async Task<Reviews> GetReviewByIdAsync(int reviewId)
+        {
+            return await _context.Reviews.FindAsync(reviewId);
+        }
+
+        public async Task UpdateReviewAsync(Reviews review)
+        {
+            _context.Reviews.Update(review);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteReviewAsync(Reviews review)
+        {
+            _context.Reviews.Remove(review);
+            await _context.SaveChangesAsync();
+        }
+        //here it is ended 
+
         public async Task<AverageRating> GetAverageRatingByBookIdAsync(int bookId)
         {
             return await _context.AverageRating
